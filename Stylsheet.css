@@ -1,0 +1,411 @@
+body{
+    background-color: #E3D888;
+    background-color: #F8E1BF;
+    background-color: #dddddd;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#ButonHeader{
+    margin-left: 35px;
+    font-size: 23px;
+}
+#nav{
+    margin-top: 50px;
+    margin-left: 40px;
+    position: absolute;
+}
+#head{
+    width: 100%;
+}
+#header{
+    background-color: #E3D888;
+    background-color: #F8E1BF;
+    background-color: rgb(176, 17, 216);
+    height: 110px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+#titre{
+    font-size: 45px;
+    position: relative;
+    z-index: 5;
+}
+#navTitre{
+    margin-top: 25px;
+    text-align: center;
+}
+#LogoHeader{
+    margin-right: -35px;
+    width: 40px;
+}
+#nav2{
+    margin-top: -50px;
+    margin-right: 71px;
+    text-align: right;
+}
+#imageHead{
+    display: flex;
+}
+#img1{
+    width: 100%;
+    margin-top: -60px;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+#TitreImg{
+    z-index: 3;
+    margin-left: 70px;
+    margin-top: 100px;
+    position: absolute;
+    font-size: 70px;
+    color: white;
+}
+#TitreImg2{
+    z-index: 3;
+    margin-left: 70px;
+    margin-top: 240px;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+}
+#BorderImg{
+    z-index: 2;
+    position: absolute;
+    background-color: black;
+    display: block;
+    opacity: 50%;
+    width: 100%;
+    height: 51.1em;
+}
+#desc{
+    text-align: center;
+    width: 60%;
+    margin: 220px auto;
+}
+#TitreDesc{
+    font-size: 60px;
+}
+#ContentDesc{
+    font-size: 40px;
+    margin-top: 40px;
+}
+#equipe{
+    margin: 220px auto;
+    text-align: center;
+    /*background-color: #558C8C;*/
+}
+#TitreEquip{
+    font-size: 60px;
+}
+#img2{
+    margin: 170px 50px;
+}
+#NomEquip{
+    display: flex;
+    text-align: center;
+}
+#NomEquipe1{
+    margin-left: 20px;
+    margin-top: -100px;
+    font-size: 40px;
+}
+#NomEquipe2{
+    margin-left: 20px;
+    margin-top: -100px;
+    font-size: 40px;
+}
+#NomEquipe3{
+    margin-left: 20px;
+    margin-top: -100px;
+    font-size: 40px;
+}
+#Description2{
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    margin: 220px auto;
+}
+#wrapper{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+#TitreDesc2{
+    margin: 0 auto;
+    font-size: 60px;
+}
+#TitreDesc3{
+    margin: 0 auto;
+    margin-top: 300px;
+    font-size: 60px;
+}
+#ContentDesc2{
+    margin-top: 180px;
+    font-size: 45px;
+    text-align: left;
+}
+#Info{
+    text-align: center;
+    width: 90%;
+    margin: 400px auto;
+}
+#TitreInfo{
+    margin: 0 auto;
+    font-size: 60px;
+}
+#ContentInfo{
+    margin-top: 180px;
+    font-size: 45px;
+}
+#header_hamburger{
+    display: none;
+    visibility: hidden;
+}
+#Famille{
+    text-align: center;
+    font-size: 40px;
+}
+#imgFamille{
+    width: 70%;
+}
+#link{
+    color: purple;
+}
+#link:hover{
+    color: rgb(216, 7, 216);
+}
+#ImageEquip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgMenu{
+    width: 50px;
+    margin-top: -20px;
+    position: absolute;
+}
+#Menu{
+    width: 80%;
+    left: -80%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    background-color: purple;
+    visibility: hidden;
+    transition: 0.5s;
+}
+#imgMenu2{
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: fixed;
+}
+#buttonMenu{
+    visibility: hidden;
+}
+#ButonHeader2{
+    margin-left: 35px;
+    font-size: 40px;
+}
+#ButonHeader5{
+    margin-left: 35px;
+    font-size: 40px;
+}
+li{
+    list-style-type: none;
+}
+#liMenu{
+    font-size: 70px;
+    text-align: center;
+    margin-left: -40px;
+    margin-top: 100px;
+}
+#ButonHeader3{
+    margin-left: 35px;
+}
+#LogoHeader2{
+    margin-top: 0;
+    width: 50px;
+}
+#LogoBorder{
+    text-align: center;
+    margin-left: -40px;
+    margin-top: 400px;
+}
+#ButonHeader{
+    display: inline-block;
+}
+#ButonHeader5{
+    display: inline-block;
+}
+#ButonHeader::after{
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 300ms;
+}
+#ButonHeader:hover::after{
+    width: 100%;
+}
+#zyro2{
+    width: 35px;
+    z-index: 4;
+    position: absolute;
+    margin-left: -18px;
+    margin-top: -8px;
+}
+
+#paramImg{
+    width: 70px;
+}
+#param{
+    position: absolute;
+    margin-top: -65px;
+    text-align: right;
+    justify-content: right;
+    margin-left: 94.8%;
+}
+#paramDropdown{
+    background-color: white;
+}
+
+
+
+#footer{
+    height: 250px;
+    background-color: #AAB9E4;
+    display: flex;
+}
+#box1{
+    display: block;
+    font-size: 30px;
+    margin-bottom: auto;
+}
+#ContentBox1{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+#box2{
+    display: flex;
+    font-size: 30px;
+    margin-bottom: auto;
+    flex-wrap: nowrap;
+}
+#ContentBox2{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    #TitreImg{
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 45px;
+    }
+    #TitreImg2{
+        margin-top: 70px;
+        margin-left: 20px;
+        font-size: 35px;
+    }
+    #box2{
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    #ContentBox2{
+        font-size: 25px;
+    }
+    #footer{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #header_hamburger{
+        display: inline;
+        visibility: visible;
+    }
+    #UlEquipe{
+        width: 32%;
+    }
+    #ImageEquip{
+        width: 100%;
+    }
+    #img2{
+        width: 100%;
+        margin-bottom: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #NomEquipe2, #NomEquipe3, #NomEquipe1{
+        font-size: 20px;
+    }
+    body{
+        font-size: 20px;
+    }
+    #TitreImg{
+        font-size: 35px;
+    }
+    #link{
+        font-size: 30px;
+    }
+    #buttonMenu{
+        visibility: visible;
+    }
+    #ButonHeader, #ButonHeader5{
+        visibility: hidden;
+        display: none;
+    }
+    #img1{
+        content: url("image/BrawlStar2.jpg");
+    }
+    #imgFamille{
+        content: url("image/supercell.brawlstars2.jpg");
+    }
+    #desc{
+        width: 90%;
+    }
+    #zyro2{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 600px) {
+    #TitreImg{
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 35px;
+    }
+    #TitreImg2{
+        margin-top: 70px;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 429px){
+    #TitreImg{
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    #TitreImg2{
+        margin-top: 70px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+}
